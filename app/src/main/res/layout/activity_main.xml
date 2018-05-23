@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondoruta"
+    android:background="@drawable/fondorutahd"
     tools:context="com.example.axel.logisticaprueba.MainActivity">
 
     <Button
@@ -18,8 +18,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:drawable/screen_background_dark_transparent"
+        android:linksClickable="true"
         android:text="@string/rendiciones"
         android:textColor="@android:color/background_light"
+        android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +41,7 @@
         android:background="@android:drawable/screen_background_dark_transparent"
         android:text="@string/hoja_de_ruta"
         android:textColor="@android:color/background_light"
+        android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,6 +62,7 @@
         android:text="@string/mapa"
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/holo_blue_bright"
+        android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
